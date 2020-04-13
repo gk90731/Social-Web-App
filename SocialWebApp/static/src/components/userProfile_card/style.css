@@ -1,0 +1,27 @@
+.cardBox{
+    width: 434px;
+    height: 468px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 11px #00000029;
+    padding: 12px;
+}
+.Phone{
+    font-size: 27px;
+    margin-left: -18px;
+    font-weight: 500;
+}
+.ContentContainer{
+    margin: 62px 0px 0px 144px;
+    /* padding: 25px; */
+}
+.Hand{
+    font-size: 14px;
+    /* margin: -4px 0px 0px -21px; */
+    /* float: left; */
+    position: relative;
+    top: 23px;
+    left: -24px;
+}
+.SubContent{
+    margin: -10px 0px 42px -14px;
+}

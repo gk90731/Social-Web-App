@@ -1,0 +1,593 @@
+.addproperty_box{
+    height: 591px;
+    width: auto;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 17%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.select_option{
+    font-size: 14px;
+    color: rgb(94, 93, 93);
+    padding-top:24px;
+    padding-left: 59px;
+}
+.addProperty_yellowbutton i{
+    position: relative;
+    left: -67px;
+}
+/* =============================================================================== */
+.property_type_popup_card{
+    width: 200px;
+    height: 231px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    margin-top:0px;
+    margin-left: 195px!important;
+    position: absolute;
+}
+.option_button{
+    border: 1px solid #a5a4a4;
+    width:auto;
+    border-radius: 3px;
+    padding:1px 5px;
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    margin:10px;
+}
+.property_type_popup_card_heading{
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.property_type_popup_card_footer{
+    margin-top: 60%;
+    margin-left: 10%;
+    color: rgb(116, 114, 114);
+    font-size: 13px;
+}
+.property_type_popup_card_footer1{
+    float: left;
+    cursor: pointer;
+}
+.property_type_popup_card_footer2{
+    float: left;
+}
+/* --------------------------------------------------------------------------------------- */
+.room_type_popup_card{
+    width: 200px;
+    height: 231px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    margin-top:0px;
+    margin-left: 195px!important;
+    position: absolute;
+}
+.option_button{
+    border: 1px solid #a5a4a4;
+    width:auto;
+    border-radius: 3px;
+    padding:1px 5px;
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    margin:10px;
+}
+.room_type_popup_card_heading{
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.room_type_popup_card_footer{
+    margin-top: 60%;
+    margin-left: 10%;
+    color: rgb(116, 114, 114);
+    font-size: 13px;
+}
+.room_type_popup_card_footer1{
+    float: left;
+    cursor: pointer;
+}
+.room_type_popup_card_footer2{
+    float: left;
+}
+/* ---------------------------------------------------------------------------------------- */
+.room_amenities_popup_card{
+    width: 200px;
+    height: 231px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    margin-top:0px;
+    margin-left: 195px!important;
+    position: absolute;
+}
+.option_button{
+    border: 1px solid #a5a4a4;
+    width:auto;
+    border-radius: 3px;
+    padding:1px 5px;
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    margin:10px;
+}
+.room_amenities_popup_card_heading{
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.room_amenities_popup_card_footer{
+    margin-top: 60%;
+    margin-left: 10%;
+    color: rgb(116, 114, 114);
+    font-size: 13px;
+}
+.room_amenities_popup_card_footer1{
+    float: left;
+    cursor: pointer;
+}
+.room_amenities_popup_card_footer2{
+    float: left;
+}
+/* ---------------------------------------------------------------------------------------- */
+.hotel_facilities_popup_card{
+    width: 200px;
+    height: 231px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    margin-top:0px;
+    margin-left: 195px!important;
+    position: absolute;
+}
+.option_button{
+    border: 1px solid #a5a4a4;
+    width:auto;
+    border-radius: 3px;
+    padding:1px 5px;
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    margin:10px;
+}
+.hotel_facilities_popup_card_heading{
+    color: #a5a4a4;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.hotel_facilities_popup_card_footer{
+    margin-top: 60%;
+    margin-left: 10%;
+    color: rgb(116, 114, 114);
+    font-size: 13px;
+}
+.hotel_facilities_popup_card_footer1{
+    float: left;
+    cursor: pointer;
+}
+.hotel_facilities_popup_card_footer2{
+    float: left;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* ======================================================================================== */
+.AddProperty_heading p{
+    font-weight: 500;
+    color: #525252;
+    padding: 5% 0% 0% 40%;
+}
+.addProperty_yellowbutton{
+    margin-left: 390px;
+    font-size: 19px;
+}
+.lower_half input{
+    margin-left: 75px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 40%;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.upper_half input{
+    margin-left: 3px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 80%;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addproperty_box input:focus{
+    outline: none;
+}
+.budget{
+    padding:3% 0% 0% 10%;
+}
+.budget span{
+    color: #1d1d1d;
+    padding:0% 10% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bedroom{
+    padding:3% 0% 0% 10%;
+}
+.bedroom span{
+    color: #1d1d1d;
+    padding:0% 2% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bathroom{
+    padding:3% 0% 0% 10%;
+}
+.bathroom span{
+    color: #1d1d1d;
+    padding:0% 6% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.property_age{
+    padding:3% 0% 0% 10%;
+}
+.property_age span{
+    color: #1d1d1d;
+    padding:0% 2% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.property_type{
+    padding:3% 0% 0% 10%;
+}
+.property_type span{
+    color: #1d1d1d;
+    padding:0% 0% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.room_type{
+    padding:3% 0% 0% 10%;
+}
+.room_type span{
+    color: #1d1d1d;
+    padding:0% 4% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.room_amenities{
+    padding:3% 0% 0% 10%;
+}
+
+.room_amenities span{
+    color: #1d1d1d;
+    padding:0% 0% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.room_amenities input{
+    margin-left: 60px;
+}
+.hotel_facilities{
+    padding:3% 0% 0% 10%;
+}
+
+.hotel_facilities span{
+    color: #1d1d1d;
+    padding:0% 0% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact_info{
+    padding:3% 0% 0% 10%;
+}
+
+.contact_info span{
+    color: #1d1d1d;
+    padding:0% 4% 0% 3%; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cancel{
+    float:right;
+    padding:1% 2% 0% 0%;
+}
+.description{
+    padding:5% 0% 0% 10%;
+}
+.description p{
+    color: #1d1d1d;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description textarea:focus{
+    outline: none;
+}
+.description textarea{
+    height: 170px;
+    width: 83%;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.upload input{
+    padding-top: 3%;
+    padding-left:10%;
+    color: rgb(33, 214, 250);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addPropertyBox_CancelIcon{
+    color: #8D8D8D
+}
+.addPropertyBox_FaDollarSign{
+    color: #FF555F
+}
+.addPropertyBox_BedIcon{
+    color: #FF555F;
+}
+.addPropertyBox_BathIcon{
+    color: #FF555F;
+}
+.addPropertyBox_LandmarkIcon{
+    color: #FF555F;
+}
+.addPropertyBox_FloorLandmarkIcon{
+    color: #FF555F;
+}
+.addPropertyBox_ImageIcon{
+    color: #FF555F;
+}
+.addPropertyBox_SqftBedIcon{
+    color: #FF555F;
+}
+.Description_Span{
+    color: #B8B8B8;
+    font-size: 9px;
+}
+.addPropertyBox_ContactIcon{
+    color: #FF555F;
+}
+/* ======================================SLIDE 2================================ */
+.loading_gif{
+    height:85px;
+    width: 85px;
+    margin: 75px 0px 10px 225px;
+}
+.please_wait{
+    margin: 15px 0px 10px 225px;
+    color: rgb(145, 145, 145);
+    font-weight: 500;
+}
+.calculating_price{
+    margin: 75px 0px 10px 145px;
+    color:  rgb(250, 168, 53);
+    font-weight: 500;
+    font-size: 17px;
+}
+/* =========================================SLIDE 3=============================== */
+.suggested_price_box{
+    width: 260px;
+    height: 90px;
+    border: 1px solid #104C81;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #104C81;
+    background-color: #CAEBFA;
+    margin:45px 0px 0px 135px;
+    padding: 10px 0px 0px 72px;
+}
+.suggested_price_heading{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(15, 15, 15);
+}
+.suggested_price_price{
+    font-size: 27px;
+    font-weight: 600;
+    color: #104C81;
+    margin-top: -15px;
+}
+.checkbox{
+    height:21px;
+    width:21px;
+    opacity: 0.7;
+    float:left;
+    margin:50px 0px 0px 70px;
+}
+.checkbox_label{
+    font-weight: 400;
+    font-size: 14px;
+    float: left;
+    padding-left: 15px;
+    margin:50px 0px 0px 0px;
+}
+.price_input{
+    margin-top: 35px;
+    margin-left: 70px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 70%;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.discount_heading{
+    font-weight: 500;
+    color: #525252;
+    padding-top: 35px;
+    padding-left: 70px;
+}
+.discount_slider{
+    width:79%;
+    margin-left: 54px;
+}
+.hrline{
+    width:80%;
+    height: 0.5px;
+    background: rgb(119, 119, 119);
+    margin-top:100px;
+}
+.final_price{
+    float: right;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 6px 70px 0px 0px;
+    
+}
+.final_price_head{
+    float: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(87, 86, 86);
+    margin: 10px 0px 0px 60px;    
+}
+
+.postAd_button{
+    margin: 76px 0px 0px 80px!important;
+    float: right;
+    background-color: #FFB44D;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 0.7% 9%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+}
+.postAd_button:focus{
+    outline: none;
+}
+.post_button_cancel{
+    margin: 41px 0px 0px 60px!important;
+    float: left;
+    background-color: rgb(134, 134, 133);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 0.7% 9%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post_button_cancel:focus{
+    outline: none;
+}
+@media only screen and (max-width: 1200px){
+    .upper_half input{
+        margin-left: 3px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        width: 87%;
+        background-color: transparent;
+        font-size: 16px;
+        color: rgb(116, 116, 116);
+        font-weight: 500;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .popup_card{
+        width: 160px;
+        height: 231px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        margin-top:0px;
+        margin-left: 195px!important;
+        position: absolute;
+    }
+    .popup_card_heading{
+        color: #a5a4a4;
+        font-weight: 400;
+        font-size: 13px;
+        padding-left: 21px;
+        padding-top: 10px;
+    }
+    /* ====================SLIDE2============================= */
+    .loading_gif{
+        height:85px;
+        width: 85px;
+        margin: 75px 0px 10px 190px;
+    }
+    .please_wait{
+        margin: 15px 0px 10px 190px;
+        color: rgb(145, 145, 145);
+        font-weight: 500;
+    }
+    .calculating_price{
+        margin: 75px 0px 10px 121px;
+        color:  rgb(250, 168, 53);
+        font-weight: 500;
+        font-size: 17px;
+    }
+    /* ======================SLIDE3============================== */
+    .suggested_price_box{
+        width: 260px;
+        height: 90px;
+        border: 1px solid #104C81;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #104C81;
+        background-color: #CAEBFA;
+        cursor: pointer;
+        margin:45px 0px 0px 100px;
+    }
+}

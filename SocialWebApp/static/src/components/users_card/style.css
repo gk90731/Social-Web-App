@@ -1,0 +1,32 @@
+.cardBox{
+    width: 685px;
+    height: 82px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 11px #00000029;
+    padding: 12px;
+}
+.Connect{
+    margin:-15px 0px 0px 528px;
+    /* padding: 25px; */
+}
+.Name{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 13px;
+    left: 84px;
+}
+.Phone{
+    position: relative;
+    top: 13px;
+    left: 123px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Email{
+    position: relative;
+    top: 12px;
+    left: 133px;
+    font-size: 14px;
+    font-weight: 500;
+}

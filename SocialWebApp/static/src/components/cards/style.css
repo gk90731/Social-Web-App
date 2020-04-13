@@ -1,0 +1,28 @@
+.cardBox{
+    width: 815px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 11px #00000029;
+    padding: 12px;
+}
+.cardBox:hover{
+    width: 815px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00000029;
+    padding: 12px;
+}
+.leftPart{
+    float: left;
+}
+.leftPart img{
+    height: 127px;
+    width: 199px;
+}
+.rightPart{
+    float: left;
+    height: 1px;
+    width: 591px;
+    /* overflow: hidden; */
+    padding: 4px 17px;
+}
